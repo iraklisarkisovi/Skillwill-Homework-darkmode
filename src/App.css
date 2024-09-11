@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.App.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: tomato;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 1s ease;
+}
+
+button:hover {
+  background-color: #000000;
+}
